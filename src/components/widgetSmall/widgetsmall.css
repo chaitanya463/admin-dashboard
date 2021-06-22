@@ -1,0 +1,68 @@
+.widgetSmall {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+.widgetSmallTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmallList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetSmallImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmallListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSmallUser{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.widgetSmallUserName{
+    font-weight: 600;
+}
+
+.widgetSmallUserTitle{
+    font-weight: 300;
+}
+
+.widgetSmallButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.widgetSmallButton:hover{
+    background: #5550bd;
+    color: white;
+}
+
+.widgetSmallIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}

@@ -1,14 +1,13 @@
-
-.userList{
+.productList{
     flex: 4;
 }
 
-.userListUser{
+.productListItem{
     display: flex;
     align-items: center;
 }
 
-.userListImg{
+.productListImg{
     width: 32px;
     height: 32px;
     object-fit: cover;
@@ -16,12 +15,12 @@
     margin-right: 10px;
 }
 
-.userListEdit{
+.productListEdit{
     padding: 5px 10px;
     margin-right: 20px;
 }
 
-.userListDelete {
+.productListDelete {
     cursor: pointer;
     color: rgb(211, 76, 76);
 }

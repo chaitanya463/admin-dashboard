@@ -1,3 +1,22 @@
 .container{
     display: flex;
 }
+
+.button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #5550bd;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+

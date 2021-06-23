@@ -14,7 +14,7 @@ const WidgetSmall = () => {
             className="widgetSmallImg"
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Nagesh</span>
+            <span className="widgetSmallUserName">Rohan</span>
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallButton">
@@ -29,7 +29,7 @@ const WidgetSmall = () => {
             className="widgetSmallImg"
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Nagesh</span>
+            <span className="widgetSmallUserName">Michael</span>
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallButton">
@@ -44,7 +44,7 @@ const WidgetSmall = () => {
             className="widgetSmallImg"
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Nagesh</span>
+            <span className="widgetSmallUserName">James</span>
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallButton">
@@ -59,7 +59,7 @@ const WidgetSmall = () => {
             className="widgetSmallImg"
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Nagesh</span>
+            <span className="widgetSmallUserName">Flicher</span>
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallButton">

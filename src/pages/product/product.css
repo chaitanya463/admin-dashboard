@@ -1,0 +1,148 @@
+.product {
+  flex: 4;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.productAddButton {
+  width: 80px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productChart,
+.productInfo {
+  flex: 1;
+}
+
+.productInfo {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.productInfoImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: black;
+}
+
+.productFlexViews {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.productInfoLeft,
+.productInfoRight {
+  flex: 1;
+}
+
+.productInfoLeft {
+  display: inherit;
+  justify-content: space-evenly;
+}
+
+.productInfoRight{
+}
+
+.productName {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.productInfoBottom {
+  margin-top: 10px;
+}
+
+.productInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.productInfoValue {
+  font-weight: 300;
+}
+
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.ProductForm{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.productFormLeft{
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > label{
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.productFormLeft > input{
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft > select{
+  margin-bottom: 10px;
+}
+
+.productUploadImage{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+  background: black;
+}
+
+.productFormRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUplaod{
+  display: flex;
+  align-items: center;
+}
+
+.productButton{
+  padding: 5px;
+  margin: 40px 40px 0px 40px;
+}
+
+.productBottomTitle{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}

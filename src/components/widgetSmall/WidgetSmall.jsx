@@ -1,8 +1,11 @@
 import React from "react";
 import "./widgetsmall.css";
 import { Visibility } from "@material-ui/icons";
+import useHttp from "../../hooks/use-http";
 
 const WidgetSmall = () => {
+
+  const {} = useHttp();
   return (
     <div className="widgetSmall">
       <span className="widgetSmallTitle"> New join Members</span>

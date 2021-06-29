@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch, useLocation } from "react-router-dom";
 import "./app.css";
 
 import Sidebar from "./components/sidebar/Sidebar";
@@ -13,6 +13,7 @@ import Product from "./pages/product/Product";
 import NewProduct from './pages/newProduct/NewProduct';
 
 function App() {
+  const location = useLocation();
   return (
     <Router>
       <Topbar />
@@ -26,7 +27,7 @@ function App() {
             <UserList />
           </Route>
           <Route path="/users/:userId">
-            <UserDetails/>
+            <UserDetails userData={location.state}/>
           </Route>
           <Route path='/newUser'>
             <NewUser/>

@@ -10,7 +10,8 @@ import React from "react";
 import "./userdetails.css";
 import {Link} from 'react-router-dom';
 
-const UserDetails = () => {
+const UserDetails = (props) => {
+
   return (
     <div className="userDetails">
       <div className="userTitleContainer">

@@ -46,7 +46,7 @@ const UserList = () => {
       renderCell: (params) => {
         return (
           <Fragment>
-            <Link to={"/users/" + params.row.id}>
+            <Link to={{ pathname: "/users/" + params.row.id, state: {data: params.row} }}>
               <button className="userListEdit button">Edit</button>
             </Link>
             <DeleteOutline

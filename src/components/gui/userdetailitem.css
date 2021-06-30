@@ -1,0 +1,45 @@
+.widgetSmallListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSmallImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmallUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmallUserName{
+    font-weight: 600;
+}
+
+.widgetSmallUserTitle{
+    font-weight: 300;
+}
+
+.widgetSmallButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.widgetSmallButton:hover{
+    background: #5550bd;
+    color: white;
+}
+
+.widgetSmallIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}

@@ -13,7 +13,6 @@ import Product from "./pages/product/Product";
 import NewProduct from './pages/newProduct/NewProduct';
 
 function App() {
-  const location = useLocation();
   return (
     <Router>
       <Topbar />
@@ -27,7 +26,7 @@ function App() {
             <UserList />
           </Route>
           <Route path="/users/:userId">
-            <UserDetails userData={location.state}/>
+            <UserDetails />
           </Route>
           <Route path='/newUser'>
             <NewUser/>

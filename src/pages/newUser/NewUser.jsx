@@ -1,11 +1,18 @@
 import React from "react";
+import useHttp from "../../hooks/use-http";
 import "./newuser.css";
 
 const NewUser = () => {
+
+  const {isLoading, error, sendRequest} = useHttp();
+
+  const formSubmitHandler = (event) => {
+
+  }
   return (
     <div className="newUser">
       <h1 className="newUserTitle">New User</h1>
-      <form className="newUserFormCollection">
+      <form className="newUserFormCollection" onSubmit={}>
         <div className='newUserForm'>
           <div className="newUserItem">
             <label>Username</label>

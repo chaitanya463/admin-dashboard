@@ -11,14 +11,18 @@ import NewUser from './pages/newUser/NewUser';
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from './pages/newProduct/NewProduct';
+import AuthPage from "./pages/authentication/AuthPage";
 
 function App() {
   return (
     <Router>
-      <Topbar />
+      {false && <Topbar />}
       <div className="container">
-        <Sidebar />
+        {false && <Sidebar />}
         <Switch>
+          <Route path="/auth" >
+              <AuthPage/>
+          </Route>
           <Route path="/" exact>
             <Home />
           </Route>

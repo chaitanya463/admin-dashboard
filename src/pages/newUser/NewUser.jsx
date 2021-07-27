@@ -12,7 +12,7 @@ const NewUser = () => {
   return (
     <div className="newUser">
       <h1 className="newUserTitle">New User</h1>
-      <form className="newUserFormCollection" onSubmit={}>
+      <form className="newUserFormCollection" onSubmit={formSubmitHandler}>
         <div className='newUserForm'>
           <div className="newUserItem">
             <label>Username</label>
